@@ -17,3 +17,12 @@ and update the window otherwise
 
 - Time complexity O(n)
 - Space complexity O(n)
+
+### 3.  Longest Palindromic Substring
+
+Iterate through the array for each character, Assume the current position is the mid-point and check if it hold the 
+values of a palindrome expanding outwards, use two pointers to do this. Consider even and odd lengthed string two different 
+cases.
+
+- Time complexity O(n^2)
+- Space complexity O(n)
