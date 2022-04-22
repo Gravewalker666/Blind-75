@@ -26,3 +26,12 @@ cases.
 
 - Time complexity O(n^2)
 - Space complexity O(n)
+
+### 4. Container With Most Water
+
+Fix two pointers at the two ends of the array to begin with. Check the area those two heights make and 
+update the max area variable. Shift the pointers to the middle by only moving the pointer that has the shortest height. 
+Do this until two pointers meet
+
+- Time complexity O(n)
+- Space complexity O(n)
