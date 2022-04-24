@@ -45,3 +45,12 @@ pointer to the right
 
 - Time complexity O(n^2)
 - Space complexity O(n)
+
+### 6. Remove Nth Node From End of List
+
+Add a dummy node to the front of the list. Have two pointers, left and right, at first pointing to the dummy node and 
+n + 1 nodes away from the dummy node respectively. Move the pointers one node at a time until the right pointers reaches 
+the end of the list. Now the left.next is pointing to the node we need to remove. 
+
+- Time complexity O(n)
+- Space complexity O(1)
