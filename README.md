@@ -54,3 +54,10 @@ the end of the list. Now the left.next is pointing to the node we need to remove
 
 - Time complexity O(n)
 - Space complexity O(1)
+
+### 7. Valid Parentheses
+
+Use a stack to determine the order. 
+
+- Time complexity O(n)
+- Space complexity O(n)
