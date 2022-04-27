@@ -61,3 +61,11 @@ Use a stack to determine the order.
 
 - Time complexity O(n)
 - Space complexity O(n)
+
+### 8. Merge two sorted linked lists
+
+Use two pointers for the two lists put the smallest one of those to the result and love that pointer to the next and 
+continue 
+
+- Time complexity O(n)
+- Space complexity O(n)
